@@ -1,0 +1,5 @@
+El filtro de media móvil (SMA)  en este caso lo hemos hecho para 4 por lo que coge cuatro muestras, las suma y las divide por el número de muestras que son 4, hace esto consecutivamente hasta pasar por todas 
+nuestras señales. En nuestro caso hemos usado un array de 4 muestras llamado arr_arrs y una variable de suma para guardar la suma de las 4 muestras y luego la dividimos por 4 y la volvemos a pasar a un vector 
+de bits para pasarsela a dout y que nos salga nuestro resultado por pantalla.
+
+Como observamos en las imágenes los picos(partes altas) y los valles(parte baja) de las señales se suavizan ya que al hacer el promedio con las muestras anteriores las variaciones no son tan drásticas.
